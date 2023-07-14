@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://boomfromheaven.github.io/AngularTest/",
             "outputPath": "dist/angular",
             "index": "src/index.html",
             "main": "src/main.ts",
